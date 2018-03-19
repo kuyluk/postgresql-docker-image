@@ -5,6 +5,7 @@ docker build --rm=true -t mydb/postgresql:9.6 .
 docker run -p 5432:5432 mydb/postgresql:9.6
 
 #run backgroung
+
 docker run -d -p 5432:5432 mydb/postgresql:9.6
 
 docker start <container-id>
